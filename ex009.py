@@ -1,0 +1,15 @@
+#Crie um programa que receba do usuario um numero e mostre na tela a tabua ate o 10 deste numero
+x = int(input('Digite o numero inteiro para saber a sua tabuada\n'))
+
+print('-' * 10 + '\n')
+print('{} x 1 = {}'.format(x,x * 1))
+print('{} x 2 = {}'.format(x,x * 2))
+print('{} x 3 = {}'.format(x,x * 3))
+print('{} x 4 = {}'.format(x,x * 4))
+print('{} x 5 = {}'.format(x,x * 5))
+print('{} x 6 = {}'.format(x,x * 6))
+print('{} x 7 = {}'.format(x,x * 7))
+print('{} x 8 = {}'.format(x,x * 8))
+print('{} x 9 = {}'.format(x,x * 9))
+print('{} x 10 = {}\n'.format(x,x * 10))
+print('-' * 10 + '\n')
